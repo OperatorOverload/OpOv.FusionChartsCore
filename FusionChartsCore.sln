@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FusionChartsCore", "FusionChartsCore\FusionChartsCore.csproj", "{DC0710F5-F417-46BD-8811-261E3F02A4FA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FusionChartsCoreTest", "FusionChartsCoreTest\FusionChartsCoreTest.csproj", "{96F34D85-111D-465E-98E0-5E319DCF7AEA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{DC0710F5-F417-46BD-8811-261E3F02A4FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC0710F5-F417-46BD-8811-261E3F02A4FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC0710F5-F417-46BD-8811-261E3F02A4FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96F34D85-111D-465E-98E0-5E319DCF7AEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96F34D85-111D-465E-98E0-5E319DCF7AEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96F34D85-111D-465E-98E0-5E319DCF7AEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96F34D85-111D-465E-98E0-5E319DCF7AEA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
