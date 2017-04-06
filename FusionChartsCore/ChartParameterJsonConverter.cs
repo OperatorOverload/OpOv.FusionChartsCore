@@ -32,16 +32,16 @@ namespace FusionChartsCore
         {
             throw new NotImplementedException();
 
-            var obj = JObject.Load(reader);
-            obj.SelectToken("details.size").MoveTo(obj);
-            obj.SelectToken("details.weight").MoveTo(obj);
-            using (reader = obj.CreateReader())
-            {
-                // Using "populate" avoids infinite recursion.
-                existingValue = (existingValue ?? new ChartParameters());
-                serializer.Populate(reader, existingValue);
-            }
-            return existingValue;
+            //var obj = JObject.Load(reader);
+            //obj.SelectToken("details.size").MoveTo(obj);
+            //obj.SelectToken("details.weight").MoveTo(obj);
+            //using (reader = obj.CreateReader())
+            //{
+            //    // Using "populate" avoids infinite recursion.
+            //    existingValue = (existingValue ?? new ChartParameters());
+            //    serializer.Populate(reader, existingValue);
+            //}
+            //return existingValue;
         }
 
         public override void WriteJson(JsonWriter writer, object value, JsonSerializer serializer)
